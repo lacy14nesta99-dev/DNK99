@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: africa-ai-wire-preview
+    runtime: python
+    plan: free
+    buildCommand: python3 -m compileall -q aggregator.py server.py review.py
+    startCommand: python3 server.py --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/health
+    autoDeploy: false
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.14
+      - key: PYTHONUNBUFFERED
+        value: "1"
+      - key: TEMPORARY_HOST
+        value: "1"
+      - key: ALLOW_MANUAL_REFRESH
+        value: "0"

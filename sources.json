@@ -1,0 +1,14 @@
+[
+ {"id":"techcabal","name":"TechCabal","url":"https://techcabal.com/feed/","homepage":"https://techcabal.com","kind":"reporting","language":"en","region":"Pan-African"},
+ {"id":"disrupt","name":"Disrupt Africa","url":"https://disruptafrica.com/feed/","homepage":"https://disruptafrica.com","kind":"reporting","language":"en","region":"Pan-African"},
+ {"id":"itweb","name":"ITWeb","url":"https://www.itweb.co.za/rss","homepage":"https://www.itweb.co.za","kind":"reporting","language":"en","region":"Southern Africa"},
+ {"id":"wearetech","name":"We Are Tech Africa","url":"https://www.wearetech.africa/en/?format=feed&type=rss","homepage":"https://www.wearetech.africa","kind":"reporting","language":"en","region":"Pan-African"},
+ {"id":"google","name":"Google Africa","url":"https://blog.google/around-the-globe/google-africa/rss/","homepage":"https://blog.google/around-the-globe/google-africa/","kind":"primary","language":"en","region":"Pan-African"},
+ {"id":"microsoft","name":"Microsoft","url":"https://blogs.microsoft.com/feed/","homepage":"https://blogs.microsoft.com","kind":"primary","language":"en","region":"Global"},
+ {"id":"meta","name":"Meta Newsroom","url":"https://about.fb.com/news/feed/","homepage":"https://about.fb.com/news/","kind":"primary","language":"en","region":"Global"},
+ {"id":"openai","name":"OpenAI","url":"https://openai.com/news/rss.xml","homepage":"https://openai.com/news/","kind":"primary","language":"en","region":"Global"},
+ {"id":"anthropic","name":"Anthropic","url":"https://www.anthropic.com/news","homepage":"https://www.anthropic.com/news","kind":"primary","language":"en","region":"Global","format":"html","path_prefix":"/news/"},
+ {"id":"kenya-gov","name":"Kenya · ICT Ministry","url":"https://ict.go.ke/news","homepage":"https://ict.go.ke","kind":"government","language":"en","region":"East Africa","format":"html","path_prefix":"/"},
+ {"id":"rwanda-gov","name":"Rwanda · MINICT","url":"https://www.minict.gov.rw/news","homepage":"https://www.minict.gov.rw","kind":"government","language":"en","region":"East Africa","format":"html","path_prefix":"/"},
+ {"id":"sa-gov","name":"South Africa · Government","url":"https://www.gov.za/news","homepage":"https://www.gov.za","kind":"government","language":"en","region":"Southern Africa","format":"html","path_prefix":"/speeches/"}
+]
